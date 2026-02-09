@@ -11,14 +11,19 @@ A lightweight shell script that enables mouse click support for moving the curso
 
 ## Installation
 
-Simply source the script in your shell configuration file (`.zshrc` or `.bashrc`).
+1.  **Download the script:**
+    Save `mouse-tracking.sh` to your home directory (or anywhere you like).
+    ```bash
+    curl -o ~/.mouse-tracking.sh https://raw.githubusercontent.com/abboahene/mouse-tracking/main/mouse-tracking.sh
+    ```
 
-1.  Download `mouse-tracking.sh` to your preferred location.
-2.  Add the following line to your RC file:
+2.  **Add to your shell config:**
+    Open your config file (`~/.bashrc` for Bash, `~/.zshrc` for Zsh) and add this line to the bottom:
+    ```bash
+    source ~/.mouse-tracking.sh
+    ```
 
-```bash
-source /path/to/mouse-tracking.sh
-```
+3.  **Restart your terminal.**
 
 ## Usage
 
